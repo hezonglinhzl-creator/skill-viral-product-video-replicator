@@ -1,0 +1,221 @@
+{
+  "files": 43,
+  "bytes": 250752,
+  "entries": [
+    {
+      "path": ".gitignore",
+      "bytes": 527,
+      "sha256": "66217f0f41c5aa9113a779c5689e63dd8168e0b6ee1317b7a42003ed9c34120b"
+    },
+    {
+      "path": "apps/video-storyboard-tool/app/__init__.py",
+      "bytes": 43,
+      "sha256": "3d37632d2e0d6c5cab7149d500188429290d241908e3de5db3457ad6533d9ea8"
+    },
+    {
+      "path": "apps/video-storyboard-tool/app/config.py",
+      "bytes": 2388,
+      "sha256": "0377a5c232570d4ef5d91d87e8b1ee7add65d3240289662954c10e3d64e26e80"
+    },
+    {
+      "path": "apps/video-storyboard-tool/app/exporters.py",
+      "bytes": 11595,
+      "sha256": "0b601b9dc0b3e4e0d3b3b97587b18d898c9fbffb27f2bd8af3cabca12a77f60e"
+    },
+    {
+      "path": "apps/video-storyboard-tool/app/feishu_bitable_sync.py",
+      "bytes": 5035,
+      "sha256": "2fedff926982b446cac45c5b4a06eac4ed984411a1490762ba8253876ef63ad0"
+    },
+    {
+      "path": "apps/video-storyboard-tool/app/feishu_common.py",
+      "bytes": 6903,
+      "sha256": "2bc7a718184d688a6394391d3ed7163bc37aa85fb44aae731f333a444eb03314"
+    },
+    {
+      "path": "apps/video-storyboard-tool/app/feishu_doc_sync.py",
+      "bytes": 14529,
+      "sha256": "eb7c797a73144d87a948ba0550c27f6155b73468c14d2ef5b49d763a76771e49"
+    },
+    {
+      "path": "apps/video-storyboard-tool/app/feishu_sync.py",
+      "bytes": 3579,
+      "sha256": "4b84f8480921ec72f35f5ea52af3fc1c69dff323a808482663559b67e50e11a4"
+    },
+    {
+      "path": "apps/video-storyboard-tool/app/main.py",
+      "bytes": 13901,
+      "sha256": "a659f5df9b877135bdf8d45804df423b038f270e6f48abb5c042443eae11e7a6"
+    },
+    {
+      "path": "apps/video-storyboard-tool/app/models.py",
+      "bytes": 3735,
+      "sha256": "5e50f953ab9d4e490403fbbcad2381a79143a5f8931af069c2a25e23619de215"
+    },
+    {
+      "path": "apps/video-storyboard-tool/app/utils.py",
+      "bytes": 1536,
+      "sha256": "838bfe767a4ca3efcb5c0c951ba7b833fffe702647be89b5aec1b6714010ca31"
+    },
+    {
+      "path": "apps/video-storyboard-tool/app/video_processing.py",
+      "bytes": 35476,
+      "sha256": "8380b2e752f9a00a0ba648f5d9823a235df82bedf8089bf7b30c2cfa1adb3e8e"
+    },
+    {
+      "path": "apps/video-storyboard-tool/INSTALL_FOR_OTHER_COMPUTER.md",
+      "bytes": 2172,
+      "sha256": "df72a30d6cc95540208afe4f0deca4034a2479c864c0c134b322b234ef1d77a6"
+    },
+    {
+      "path": "apps/video-storyboard-tool/launch_video_storyboard_tool.bat",
+      "bytes": 641,
+      "sha256": "03b7f29d229d690489522a094420e0a0efb4c6d8fa4256442ef10686a22ce987"
+    },
+    {
+      "path": "apps/video-storyboard-tool/PACKAGE_MANIFEST.txt",
+      "bytes": 298,
+      "sha256": "d42ebb948bd39eadd77f6fe8f8c4901275a4f500523d9b182f10b1157eaa0ca2"
+    },
+    {
+      "path": "apps/video-storyboard-tool/product_profile.json",
+      "bytes": 7492,
+      "sha256": "388e53b9b50dc282ae789975e052a53bdff17e9c049613b5b9c7e506a43316a4"
+    },
+    {
+      "path": "apps/video-storyboard-tool/prompts/feishu_native_table_storyboard.md",
+      "bytes": 1423,
+      "sha256": "df339b778e5c69ef1a826b8c3b22e3b5a4135a5839ffb91f5eefca4d7fc7182c"
+    },
+    {
+      "path": "apps/video-storyboard-tool/README.md",
+      "bytes": 3597,
+      "sha256": "65b73c72a74866a4252b48b60a9dcaa8c8b231133b9f51454909d9980d2a45b3"
+    },
+    {
+      "path": "apps/video-storyboard-tool/requirements-whisper.txt",
+      "bytes": 21,
+      "sha256": "d919424028449a500a75648f47a8b98bf4abdf42cbe46f66d8650e6b13857a63"
+    },
+    {
+      "path": "apps/video-storyboard-tool/requirements.txt",
+      "bytes": 408,
+      "sha256": "180c7db3e73ef4b3dd160ec0c9fff576ba92172ef3ec0c159f0f2eb41f1bb218"
+    },
+    {
+      "path": "apps/video-storyboard-tool/sample_output.md",
+      "bytes": 1055,
+      "sha256": "49decc13aa4713168b6e270423f585d0f37e56a1a15c5f6fb33710cb6849e25c"
+    },
+    {
+      "path": "apps/video-storyboard-tool/START_HERE.bat",
+      "bytes": 1122,
+      "sha256": "f1b8f66da05127a04264581f863dc8ea58d7c9e81dcb1f15d6568d04e20bba16"
+    },
+    {
+      "path": "apps/video-storyboard-tool/start_video_storyboard_tool.bat",
+      "bytes": 410,
+      "sha256": "499c0325320a2fa2f2bfc427b0ab73ebb59902ff91f914367ecfa51f0ebb111b"
+    },
+    {
+      "path": "apps/video-storyboard-tool/static/app.js",
+      "bytes": 36887,
+      "sha256": "91edbf0cdd94b5d9d9c8a310be4975eababef4c7c91b917bbab057e9dcb2b2b5"
+    },
+    {
+      "path": "apps/video-storyboard-tool/static/index.html",
+      "bytes": 4039,
+      "sha256": "ec4f381ebce2d9011ab02685aa07e9900430f49257f45dc3ff5b5b480e87204b"
+    },
+    {
+      "path": "apps/video-storyboard-tool/static/style.css",
+      "bytes": 6582,
+      "sha256": "a24bee2f9499fc191aabf6fdb152182992e152276195e642a9a2c2b1fb0538b8"
+    },
+    {
+      "path": "install.ps1",
+      "bytes": 646,
+      "sha256": "2d27453c6a86ece11814c03c03496f2bf6e5d035da2e01d958ee1a724c904b7c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1002,
+      "sha256": "7379580397a21ad85c64cc2d2eb87a0f7796c3c8b1a208bf924d85cb5e3bc7da"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/agents/openai.yaml",
+      "bytes": 362,
+      "sha256": "0460341e59afeba4043979057a8468fd6f2fdcd1ab589c4e529707496238919a"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/agents/openai.yaml.backup-20260924-utf8-repair",
+      "bytes": 233,
+      "sha256": "2bd758215d9f2a090ea2b8e31c23604e7aa953d5b428fef5a3edc3af96b3046b"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/assets/character_bank_template.json",
+      "bytes": 604,
+      "sha256": "3b787b7eb2b2cbec41b97ab63e29a27ffcf396d86de1c34a600322fb25b0aab2"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/assets/product_brief_template.md",
+      "bytes": 219,
+      "sha256": "e5827b55695b5ec9e567af7b2f5343c9f260e6a142330a61144c8574172a31b2"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/assets/software/README.md",
+      "bytes": 851,
+      "sha256": "e6fd17d4f3695a5560a2e2ca1cc80ebebe3a0344ceb5f6db3e3fe12c2cc8b952"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/references/banana-jimeng-fastcut-workflow.md",
+      "bytes": 6341,
+      "sha256": "30fa5033cb2fe12e9520b69e6ba5fea6aadb8cd1b4cdbc6146ace71d9acfbdcd"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/references/emoto-ugc-story-workflow.md",
+      "bytes": 22667,
+      "sha256": "0310c6eb2940e72135a88392c7e3c76e64d0d083beb13b5b6de13285fc289bd9"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/references/local-video-storyboard-feishu-workflow.md",
+      "bytes": 7695,
+      "sha256": "0dd8d41c5dbae9c6501577bf52e7e5470c92c3bd61b826657cd5266206ac8862"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/references/native-ugc-realness-workflow.md",
+      "bytes": 9498,
+      "sha256": "a736daf01fadac85296e93ecd9d7e76c24034f28a27e990857bc7da1a85002f6"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/references/output-contract.md",
+      "bytes": 1432,
+      "sha256": "26bc79a8800cc7695860f2939e1e2cb76c8a790619b2c43a1b596dfa52894466"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/references/seedance-codex-reference-breakdown.md",
+      "bytes": 2950,
+      "sha256": "a483b2044b8ac2e29010c57232538efb272df4bb0b119bc703721c1ac8d2aa55"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/scripts/split_storyboard.py",
+      "bytes": 2669,
+      "sha256": "0c53fdf1f526830f8c548d990fca000bddc20b013cf67970160c51ed86d57f4f"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/SKILL.md",
+      "bytes": 27989,
+      "sha256": "22088e410a5db43f1f3e9fdebee81bbf45b47a1b80c58b4d92056835fc6614dd"
+    },
+    {
+      "path": "安装Skill.cmd",
+      "bytes": 105,
+      "sha256": "ad77696738bfb2f92f802e0941c18cb906baad9989a604536cfc81a60e176d1a"
+    },
+    {
+      "path": "打开程序文件夹.cmd",
+      "bytes": 95,
+      "sha256": "c4f42f3bec05b83599d984b3c79328e6fc93fb2be392fea35477918acd16759d"
+    }
+  ]
+}
