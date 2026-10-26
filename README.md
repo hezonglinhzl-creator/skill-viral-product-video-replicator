@@ -1,15 +1,80 @@
-# viral-product-video-replicator
+# 产品视频拆解与分镜复刻 / Product Video Breakdown and Storyboard Adaptation
 
-Independent Codex skill package. The installable skill is in [`skill/viral-product-video-replicator/`](skill/viral-product-video-replicator/). This repository also includes all paired program source files from the sanitized release under `apps/`.
+**简体中文** | [English](README.en.md)
 
-## Install and open
+用本地拆镜头程序生成关键帧和分镜表，再由 Skill 设计产品替换、人物、提示词和社媒文案。
 
-1. Download the repository ZIP or clone it.
-2. On Windows, double click `安装Skill.cmd` to copy the skill into `%USERPROFILE%\.codex\skills`.
-3. Double click `打开程序文件夹.cmd` to view the paired program source, then follow that program's README or startup script. Configure dependencies and accounts on your own computer.
+[下载完整项目包](https://github.com/hezonglinhzl-creator/varla-electric-mobility-skills-and-tools/raw/main/packages/skill-viral-product-video-replicator.zip) · [全部项目](https://github.com/hezonglinhzl-creator/varla-electric-mobility-skills-and-tools)
 
-## Paired standalone programs
+## 功能特性
 
-- [video-storyboard-tool](https://github.com/hezonglinhzl-creator/app-video-storyboard-tool)
+- 镜头切分和关键帧
+- CSV / Excel / Markdown 导出
+- 产品替换与电摩 UGC 分镜
 
-No credentials, customer/KOL records, contracts, mail history, databases, or business media are included. Source files are from the sanitized public release. Review each component's own license and documentation before use.
+## 这个包里有什么
+
+| 内容 | 位置 |
+| --- | --- |
+| 本地视频拆镜头与分镜表 | [video-storyboard-tool](apps/video-storyboard-tool/README.md) |
+| Skill 指令 | [SKILL.md](skill/viral-product-video-replicator/SKILL.md) |
+
+## 下载和解压
+
+1. 在本仓库点绿色 **Code → Download ZIP**，或者点上方“下载完整项目包”。
+2. 下载完成后右键 ZIP，选择**全部解压**，打开能看到此 README 的文件夹。
+3. 保留整个目录；先按下一节准备程序，再安装和使用对应 Skill。
+
+## 1. 先准备程序
+
+### 本地视频拆镜头与分镜表 (`video-storyboard-tool`)
+
+Python 3.11+、FFmpeg/FFprobe；语音识别可选 Whisper。
+
+先进入 `apps/video-storyboard-tool`。视频上传、镜头切分、关键帧、可编辑分镜表和表格导出。
+
+1. 在本目录运行 `python -m venv .venv`。
+2. 运行 `.\.venv\Scripts\python.exe -m pip install -r requirements.txt`。
+3. 确认 `ffmpeg -version` 可用；如需台词识别，再用该 Python 安装 `requirements-whisper.txt`。
+4. 运行 `.\.venv\Scripts\python.exe -m uvicorn app.main:app --host 127.0.0.1 --port 8787`。
+5. 打开页面上传自己的短测试视频，检查镜头和台词，修改表格后导出。飞书功能另填自己的 `.env`。
+
+本地地址：`http://127.0.0.1:8787`
+
+[查看完整程序与浏览器插件安装说明](apps/video-storyboard-tool/README.md)
+
+部分画面说明是模板或占位，不代表已完成视觉理解；Whisper 未安装时台词可能为空。
+
+## 2. 再安装 Skill
+
+1. 回到解压后的项目根目录，双击 `安装Skill.cmd`。
+2. 安装器把 `skill/viral-product-video-replicator` 复制到 `%USERPROFILE%\.codex\skills\viral-product-video-replicator`。遇到同名 Skill 会跳过，留意窗口结果。
+3. 重新打开 Codex，新建对话，使用下面的 Skill 名称和示例。
+4. 公司策略禁止脚本时，可先阅读 install.ps1，或手动把整个 Skill 目录复制到同一目标位置。
+
+## 3. 第一次怎么用
+
+| 准备项 | 内容 |
+| --- | --- |
+| 输入 | 有权使用的参考视频、产品图、参数和目标平台。 |
+| 输出 | 关键帧、可编辑镜头表、视频改编脚本及生成提示词。 |
+
+```text
+使用 viral-product-video-replicator，先拆解我的参考视频并导出镜头表，再给电摩产品替换方案，禁止改动产品外形和参数。
+```
+
+
+## 当前限制与常见问题
+
+语音识别需另装 Whisper 和 FFmpeg；画面说明有模板/占位部分，必须人工核对，飞书同步需配置自己的权限。
+
+| 问题 | 怎么处理 |
+| --- | --- |
+| 找不到 Skill | 检查安装窗口结果和目标 SKILL.md，重新打开 Codex 并新建对话。 |
+| 程序启动失败 | 在程序目录打开 PowerShell 运行本文命令，让错误保留在窗口，再对照对应程序 README。 |
+| 网页看不到插件 | 确认选中直接包含 manifest.json 的目录、网站受支持，并刷新网页。 |
+| 外部服务不可用 | 配置自己的授权并检查资源权限；保留本地结果，不把失败说成同步/发送成功。 |
+
+## 隐私与验证范围
+
+这是程序源码与 Skill 分发包，不附带真实账号、OAuth 令牌、客户/KOL 台账、合同、订单、邮箱导出或业务媒体。服务需使用自己的配置。已检查文档和包内入口；此次文档核对没有执行真实下单、发邮件或发布内容。

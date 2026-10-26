@@ -1,11 +1,16 @@
 {
-  "files": 43,
-  "bytes": 250752,
+  "files": 48,
+  "bytes": 265312,
   "entries": [
     {
       "path": ".gitignore",
       "bytes": 527,
       "sha256": "66217f0f41c5aa9113a779c5689e63dd8168e0b6ee1317b7a42003ed9c34120b"
+    },
+    {
+      "path": "apps/video-storyboard-tool/.env.example",
+      "bytes": 230,
+      "sha256": "5a4daf4f16ec69131ba2564bc17930267fd6ad47bcabefe4f63467986eb1f2f7"
     },
     {
       "path": "apps/video-storyboard-tool/app/__init__.py",
@@ -34,8 +39,8 @@
     },
     {
       "path": "apps/video-storyboard-tool/app/feishu_doc_sync.py",
-      "bytes": 14529,
-      "sha256": "eb7c797a73144d87a948ba0550c27f6155b73468c14d2ef5b49d763a76771e49"
+      "bytes": 14533,
+      "sha256": "3961b454c4ef4918ec783e7fd823cbfe4fe3744edd7d28d5493a7c575de7c3d2"
     },
     {
       "path": "apps/video-storyboard-tool/app/feishu_sync.py",
@@ -88,9 +93,14 @@
       "sha256": "df339b778e5c69ef1a826b8c3b22e3b5a4135a5839ffb91f5eefca4d7fc7182c"
     },
     {
+      "path": "apps/video-storyboard-tool/README.en.md",
+      "bytes": 2264,
+      "sha256": "4cdbd9f420c1fce96a42f279fa86c668d9b34b7d4e52c781a3b7b88db98ff34c"
+    },
+    {
       "path": "apps/video-storyboard-tool/README.md",
-      "bytes": 3597,
-      "sha256": "65b73c72a74866a4252b48b60a9dcaa8c8b231133b9f51454909d9980d2a45b3"
+      "bytes": 2195,
+      "sha256": "868102622f55e78ee7c3f7682ed7c1da726051e673d0d744db02516fdbc49386"
     },
     {
       "path": "apps/video-storyboard-tool/requirements-whisper.txt",
@@ -138,9 +148,14 @@
       "sha256": "2d27453c6a86ece11814c03c03496f2bf6e5d035da2e01d958ee1a724c904b7c"
     },
     {
+      "path": "README.en.md",
+      "bytes": 4332,
+      "sha256": "cf71f98936d71ac8e9235c56e43b0c84089a6b235caa9a051ba2e66411416831"
+    },
+    {
       "path": "README.md",
-      "bytes": 1002,
-      "sha256": "7379580397a21ad85c64cc2d2eb87a0f7796c3c8b1a208bf924d85cb5e3bc7da"
+      "bytes": 4064,
+      "sha256": "e4ac6841800c1461a0abb6c06d1f72f460230d648b63afcd3861e7d702cdde41"
     },
     {
       "path": "skill/viral-product-video-replicator/agents/openai.yaml",
@@ -168,6 +183,16 @@
       "sha256": "e6fd17d4f3695a5560a2e2ca1cc80ebebe3a0344ceb5f6db3e3fe12c2cc8b952"
     },
     {
+      "path": "skill/viral-product-video-replicator/README.en.md",
+      "bytes": 3166,
+      "sha256": "c2fdb8000759ee7fb820e80a7f8bc9cdd8838582f1f607e68d75afe68a2ee9ec"
+    },
+    {
+      "path": "skill/viral-product-video-replicator/README.md",
+      "bytes": 3001,
+      "sha256": "c3ed272c1a57320d2532d7c3d3e6370e96ec5e33b2cf9023c891769d1c73ab4c"
+    },
+    {
       "path": "skill/viral-product-video-replicator/references/banana-jimeng-fastcut-workflow.md",
       "bytes": 6341,
       "sha256": "30fa5033cb2fe12e9520b69e6ba5fea6aadb8cd1b4cdbc6146ace71d9acfbdcd"
@@ -179,8 +204,8 @@
     },
     {
       "path": "skill/viral-product-video-replicator/references/local-video-storyboard-feishu-workflow.md",
-      "bytes": 7695,
-      "sha256": "0dd8d41c5dbae9c6501577bf52e7e5470c92c3bd61b826657cd5266206ac8862"
+      "bytes": 7598,
+      "sha256": "3ed3df17c5a07e36289dc5ca18c590b8b7c39c70c1dd0f4774052c9320328547"
     },
     {
       "path": "skill/viral-product-video-replicator/references/native-ugc-realness-workflow.md",
