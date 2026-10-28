@@ -1,11 +1,11 @@
 {
   "files": 48,
-  "bytes": 265312,
+  "bytes": 268601,
   "entries": [
     {
       "path": ".gitignore",
-      "bytes": 527,
-      "sha256": "66217f0f41c5aa9113a779c5689e63dd8168e0b6ee1317b7a42003ed9c34120b"
+      "bytes": 552,
+      "sha256": "306594764a35cf47b68ddefaf227968de9684a1c465fafa94d821ba4c5162e96"
     },
     {
       "path": "apps/video-storyboard-tool/.env.example",
@@ -144,18 +144,18 @@
     },
     {
       "path": "install.ps1",
-      "bytes": 646,
-      "sha256": "2d27453c6a86ece11814c03c03496f2bf6e5d035da2e01d958ee1a724c904b7c"
+      "bytes": 2339,
+      "sha256": "d662489ba0c1bf009c714b6030eab322a04042b5d8ff441eeb56bb4549763dd3"
     },
     {
       "path": "README.en.md",
-      "bytes": 4332,
-      "sha256": "cf71f98936d71ac8e9235c56e43b0c84089a6b235caa9a051ba2e66411416831"
+      "bytes": 4622,
+      "sha256": "34fad5908dc2e84a36ac3c6cd0d12e1508848892cf86b002ff58026180f6f5c1"
     },
     {
       "path": "README.md",
-      "bytes": 4064,
-      "sha256": "e4ac6841800c1461a0abb6c06d1f72f460230d648b63afcd3861e7d702cdde41"
+      "bytes": 4300,
+      "sha256": "8f9a19c37bbc6f98c37aee435a787ac620987131a60e9402ffd0bcb4e18a2594"
     },
     {
       "path": "skill/viral-product-video-replicator/agents/openai.yaml",
@@ -229,8 +229,8 @@
     },
     {
       "path": "skill/viral-product-video-replicator/SKILL.md",
-      "bytes": 27989,
-      "sha256": "22088e410a5db43f1f3e9fdebee81bbf45b47a1b80c58b4d92056835fc6614dd"
+      "bytes": 29034,
+      "sha256": "aaff218cdd00421d2cd533bcd247d55fb6f02dc46faaf00c9b89ac85a8465ccd"
     },
     {
       "path": "安装Skill.cmd",
